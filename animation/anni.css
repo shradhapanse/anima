@@ -1,0 +1,308 @@
+<style>
+	*
+	{
+		margin: 0;
+		padding: 0;
+	}
+	.background
+	{
+		height: 500px;
+		width: 100%;
+		position: relative;
+		background-image: linear-gradient(skyblue,lightgray);
+	}
+
+/*	------------------------cloud------------------------*/
+	.cloud1
+	{
+		background-color: white;
+		height: 65px;
+		width: 77px;
+		border-radius: 100%;
+		margin-left: 180px;
+    	margin-top: 76px;
+		position: absolute;
+	}
+	.cloud2
+	{
+		background-color: white;
+		height: 91px;
+		width: 99px;
+		margin-left: 239px;
+    	margin-top: 61px;
+		border-radius: 100%;
+		position: absolute;
+	}
+	.cloud3
+	{
+		background-color: white;
+		height: 62px;
+		width: 77px;
+		margin-left: 325px;
+    	margin-top: 76px;
+		border-radius: 100%;
+		position: absolute;
+	}
+	.c1
+	{
+		float: left;
+	}
+	.c2
+	{
+		float: left;
+		margin-left: 432px;
+	}
+	.c3
+	{
+		float: left;
+		margin-left: 809px;
+	}
+/*--------------------------rain---------------------------------*/	
+	.rain
+	{
+		height: 13px;
+		width: 10px;
+    	margin-left: 214px;
+    	border-top-left-radius: 607px;
+    	border-bottom-left-radius: 285px;
+    	border-bottom-right-radius: 371px;
+    	margin-top: 154px;
+		background-color: white;
+		position: absolute;
+		animation-name: dhor;
+		animation-duration: 2s;
+		animation-direction: forwards;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+	@keyframes dhor{
+		from{top:0;bottom: 0;}
+		to{top:170px;bottom:0;}
+	}
+	.rain1
+	{
+		float: left;
+		margin-left: 5px;
+	}
+	.rain2
+	{
+		float: left;
+		margin-left: 44px;
+	}
+	.rain3
+	{
+		float: left;
+		margin-left: 86px;
+	}
+	.rain4
+	{
+		margin-left: 128px;
+		float: left;
+	}
+	.rain1_2
+	{
+		float: left;
+		margin-left: 424px;
+	}
+	.rain2_2
+	{
+		float: left;
+		margin-left: 469px;
+	}
+	.rain3_2
+	{
+		float: left;
+		margin-left: 519px;
+	}
+	.rain4_2
+	{
+		margin-left: 569px;
+		float: left;
+	}
+	.rain1_3
+	{
+		float: left;
+		margin-left: 808px;
+	}
+	.rain2_3
+	{
+		float: left;
+		margin-left: 851px;
+	}
+	.rain3_3
+	{
+		float: left;
+		margin-left: 897px;
+	}
+	.rain4_3
+	{
+		margin-left: 947px;
+		float: left;
+	}
+	
+/*	----------------------bus---------------------------*/
+	.bus
+	{
+		position: absolute;
+		height: 200px;
+		width: 31%;
+		background-color: yellow;
+		border-top-right-radius: 16px;
+		border-top-left-radius: 16px;
+		margin-top: 331px;
+		border: 1px solid;
+		animation-name: shradha;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+
+	}
+	@keyframes shradha
+	{
+		 from  {left:0px; top:0px;}
+  		to  {left:800px; top:0px;}
+	}
+	.wind1
+	{
+		height: 75px;
+    	width: 15%;
+    	border: 1px solid;
+    	margin-left: 15px;
+    	margin-top: 29px;
+    	border-radius: 7px;
+    	float: left;
+	}
+	.wind2
+	{
+		height: 75px;
+    	width: 15%;
+    	border: 1px solid;
+    	margin-left: 36px;
+    	margin-top: 29px;
+    	border-radius: 7px;
+    	float: left;
+	}
+	.wind3
+	{
+		height: 75px;
+    	width: 15%;
+    	border: 1px solid;
+    	margin-left: 28px;
+    	margin-top: 29px;
+    	border-radius: 7px;
+    	float: left;
+	}
+	.hr
+	{
+		border-color: black;
+		margin-top: 39px;
+	}
+	.hr1
+	{
+		border-color: black;
+		margin-top: 10px;
+	}
+	.get
+	{
+		height: 131px;
+    	width: 15%;
+    	border: 1px solid;
+    	background-color: lightgray;
+    	margin-left: 59px;
+    	margin-top: 29px;
+    	border-radius: 7px;
+    	float: left;
+	}
+	.circul1
+	{
+		height: 50px;
+		width: 50px;
+		float: left;
+		margin-left: 52px;
+		margin-top: 12px;
+		border-radius: 100%;
+		border-top: 5px ridge blue;
+		border-left: 5px ridge lime;
+		border-right: 5px ridge yellow;
+		border-bottom: 5px ridge red;
+		background-color: black;
+		animation-name: sonu;
+		animation-duration: 16s;
+
+	}
+	@keyframes sonu{
+		from{transform: rotate(0deg);}
+		to{transform: rotate(360deg);}
+	}
+	.circul2
+	{
+		height: 50px;
+		width: 50px;
+		float: left;
+		margin-left: 185px;
+		margin-top: 12px;
+		border-radius: 100%;
+		border-top: 5px ridge blue;
+		border-left: 5px ridge lime;
+		border-right: 5px ridge yellow;
+		border-bottom: 5px ridge red;
+		background-color: black;
+		animation-name: sonu;
+		animation-duration: 16s;
+	}
+	@keyframes sonu{
+		from{transform: rotate(0deg);}
+		to{transform: rotate(360deg);}
+	}
+	/*	--------------------road----------------------*/
+	.road
+	{
+		height: 100px;
+		width: 100%;
+		background-color: #5d5555;
+	}
+/*	-----------------------tree 1--------------------------*/
+	.tree1
+	{
+		position: absolute;
+		height: 146px;
+    	width: 30px;
+    	margin-top: 406px;
+    	margin-left: 470px;
+		background-color: brown;
+	}
+	.leaf1
+	{
+		background-color: green;
+		height: 73px;
+		width: 84px;
+		border-radius: 100%;
+		margin-left: 403px;
+    	margin-top: 378px;
+		position: absolute;
+	}
+	.leaf2
+	{
+		background-color: green;
+		height: 70px;
+		width: 85px;
+		border-radius: 100%;
+		margin-left: 482px;
+    	margin-top: 381px;
+		position: absolute;
+	}
+	.leaf3
+	{
+		background-color: green;
+		height: 89px;
+		width: 95px;
+		border-radius: 100%;
+		margin-left: 436px;
+    	margin-top: 316px;
+		position: absolute;
+	}
+	.tree2
+	{
+		margin-left: 494px;
+	}
+</style>
